@@ -25,7 +25,6 @@ ENV CART_HOST="cart" \
 
 USER roboshop
 CMD ["uwsgi", "--ini", "payment.ini"]
-aad
 
 # FROM python:3.9
 # EXPOSE 8080
